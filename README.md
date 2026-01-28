@@ -13,7 +13,6 @@ This script provides a similar experience using **maximize + auto-hide Dock** in
 | Window State | Dock |
 |--------------|------|
 | Maximized | Auto-hide |
-| Split (1/2, 1/3, 2/3) | Auto-hide |
 | Normal window | Visible |
 | Desktop | Visible |
 
@@ -57,13 +56,17 @@ Menu bar hammer icon → Preferences → **Launch Hammerspoon at login**
 
 ## Usage
 
-Just use your Mac normally. The Dock will automatically hide when you maximize or split a window, and reappear when you switch to a smaller window.
+Just use your Mac normally. The Dock will automatically hide when you maximize a window, and reappear when you switch to a smaller window.
 
 **Reload config:** `Cmd + Ctrl + R`
 
+## Tips
+
+Use with [TopNotch](https://topnotch.app) to make the menu bar background black. Combined with this script, it feels like full-screen mode while keeping multi-window flexibility.
+
 ## Compatibility
 
-- macOS Sonoma, Sequoia (Apple Silicon)
+- macOS Sonoma, Sequoia, Tahoe (Apple Silicon)
 - Works with Rectangle, Magnet, and other window managers
 
 ## License
